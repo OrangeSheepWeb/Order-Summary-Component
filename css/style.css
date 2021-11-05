@@ -1,0 +1,160 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../img/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:16px;
+    background-size: 100%;
+}
+
+.card-container {
+    margin: 10% auto 3% auto;
+    width: 31.25%;
+    background-color: #ffffff;
+    border-radius:20px;
+    padding-bottom:3%;
+    max-width:440px;
+}
+
+.card-container h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 7%;
+}
+
+.card-container p {
+    font-weight: 500;
+    text-align: center;
+    padding: 0 15%;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+.hero-header-img {
+    background-image: url('../img/illustration-hero.svg');
+    background-repeat: no-repeat;
+    height:219px;
+    border-radius: 20px 20px 0px 0px ;
+    width:100%;
+}
+
+.purchase {
+    width: 65%;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    padding: 0px 20px;
+    margin-bottom:3%;
+}
+
+.music-icon-block {
+    background-image: url('../img/icon-music.svg');
+    background-repeat: no-repeat;
+    min-width: 48px;
+    height: 48px;
+    width:18%;
+    margin-top:7%;
+}
+
+.membership {
+    width:58%;
+    position: relative;
+    top: -7px;
+    left: -5%;
+}
+
+p.order-items {
+        margin-bottom: 0px;
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 1.5;
+}
+
+p.product-price {
+    margin-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+    margin-bottom:7%;
+}
+
+.music-icon-block, .membership, .change-product {
+    display: inline-block;
+}
+
+.change-product {
+    font-weight:900;
+    position:relative;
+    top:-18px;
+}
+
+.change-product a:hover {
+    text-decoration: none;
+    color:#766CF1;
+}
+
+.button-purchase, .cancel-link {
+    display:block;
+    margin:0 auto;
+    text-align: center;
+}
+
+.button-purchase {
+    width: 74%;
+    min-height: 50px;
+    background-color: #382AE1;
+    color: #ffffff;
+    font-weight: 900;
+    border-radius: 8px;
+    border: none;
+    cursor:pointer;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    box-shadow: 0px 10px 25px -10px #382ad8;
+}
+
+.button-purchase:hover {
+    background-color: #766CF1;
+    box-shadow: 0px 10px 25px -10px #766cf1;
+}
+
+.cancel-link {
+    text-decoration: none;
+    font-weight:900;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-link:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+@media screen and (max-width: 376px) {
+    body {
+        background-image: url('../img/pattern-background-mobile.svg');
+        font-size:14px;
+    }
+
+    .card-container {
+        width: 95%;
+        margin: 12% auto 12% auto;
+        padding-bottom:8.5%;
+    }
+
+    .membership {
+        width: 50%;
+        position: relative;
+        top: -11px;
+        left: 5px;
+    }
+
+    .change-product {
+        font-weight: 900;
+        position: relative;
+        top: -20px;
+        left: 5px;
+    }
+  }
